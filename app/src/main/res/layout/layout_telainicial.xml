@@ -5,20 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="activity_main"
+    tools:context=".LayoutTelainicialActivity"
     android:background="@drawable/background">
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:textColor="#000000"
-            android:layout_marginTop="60sp"
-            android:text="Welcome Back"
-            android:textAllCaps="false"
-            android:textSize="40sp"
-            android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:layout_marginTop="60sp"
+        android:text="Welcome Back"
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="269dp"
@@ -32,31 +32,31 @@
         android:textColorHighlight="#B34848"
         android:textSize="13sp" />
 
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_gravity="center_horizontal"
-            android:scaleType="centerCrop"
-            android:src="@drawable/venon" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/venon" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"
-            android:layout_marginTop="20dp"
-            android:text="VENOM CORP."
-            android:textAllCaps="false"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:text="VENOM CORP."
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="'O mundo já tem muitos super-heróis'"
-            android:textSize="15sp"
-            android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="'O mundo já tem muitos super-heróis'"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="300dp"
@@ -68,14 +68,14 @@
         android:text="Entrar" />
 
 
-        <Button
-            android:layout_width="300dp"
-            android:layout_height="5dp"
-            android:layout_marginBottom="20dp"
-            android:backgroundTint=""
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:text="Sair" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint=""
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Sair" />
 
     <LinearLayout
         android:layout_width="wrap_content"
